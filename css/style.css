@@ -16,22 +16,39 @@ ul{
 
 li{
     list-style: none;
+}
+.header{
+    background-color: #2b384b;
+    display: flex;
+    flex-direction: column;
+}
 
+nav.container, .container-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 nav.container{
-    display: flex;
-    justify-content: space-around;
-    background-color: #2b384b;
-    align-items: center;
-    
-    padding: 20px;
 
 }
 
 .logo{
     font-weight: bold;
     font-size: 20px;
+}
+
+.description{
+    max-width: 500px;
+}
+
+.description-img{
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
 }
 
 .main{
